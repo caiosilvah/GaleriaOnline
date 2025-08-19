@@ -1,0 +1,5 @@
+wwwroot\imagens\11c59771-52a0-4ca1-b1f3-af618b8ceb5e.png
+wwwroot\imagens\2331f2ed-c2b2-4f92-89da-09af47cd1ef2.png
+wwwroot\imagens\5e1fc914-1e6f-44ad-92b3-16262e0a7287.png
+wwwroot\imagens\b3efa491-ade5-49d5-82ec-b5a3d2801ba3.png
+wwwroot\imagens\cb05fa95-5358-4e6d-aa8c-6979c65614ba.png
