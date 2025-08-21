@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\47836585875\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24C56335-6C97-4C0D-B0E6-3AF7C0E20B6D}|GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj|c:\\users\\47836585875\\desktop\\galeriaonline\\galeriaonline.webapi\\galeriaonline.webapi\\galeriaonline.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{24C56335-6C97-4C0D-B0E6-3AF7C0E20B6D}|GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj|solutionrelative:galeriaonline.webapi\\galeriaonline.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{24C56335-6C97-4C0D-B0E6-3AF7C0E20B6D}|GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj|c:\\users\\47836585875\\desktop\\galeriaonline\\galeriaonline.webapi\\galeriaonline.webapi\\dbcontextimagem\\galeriaonlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C56335-6C97-4C0D-B0E6-3AF7C0E20B6D}|GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj|solutionrelative:galeriaonline.webapi\\dbcontextimagem\\galeriaonlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GaleriaOnline.WebApi",
-              "DocumentMoniker": "C:\\Users\\47836585875\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
-              "RelativeDocumentMoniker": "GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
-              "ToolTip": "C:\\Users\\47836585875\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
-              "RelativeToolTip": "GaleriaOnline.WebApi\\GaleriaOnline.WebApi.csproj",
+              "Title": "GaleriaOnlineDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\47836585875\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDBContext.cs",
+              "RelativeDocumentMoniker": "GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDBContext.cs",
+              "ToolTip": "C:\\Users\\47836585875\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDBContext.cs",
+              "RelativeToolTip": "GaleriaOnline.WebApi\\DbContextImagem\\GaleriaOnlineDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-19T11:44:20.896Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T13:05:19.588Z",
               "EditorCaption": ""
             }
           ]
