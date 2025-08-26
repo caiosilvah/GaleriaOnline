@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import api from '../../Services/services';
 
 export const Galeria = () => {
+
     const [cards, setCards] = useState([]);
     const [imagem, setImagem] = useState(null);
     const [nomeImagem, setNomeImagem] = useState("");
@@ -14,6 +15,7 @@ export const Galeria = () => {
         try {
             const resposta = await api.get("Imagem");
             setCards(resposta.data);
+
         } catch (error) {
             console.error(error);
             alert("Erro ao listar.");
@@ -39,6 +41,7 @@ export const Galeria = () => {
                 });
 
                 alert("Pabens, seu cadastro foi realizado!!!")
+                listarCards();
 
             } catch (error) {
                 alert("Não foi possivel realizar o cadastro!")
@@ -50,7 +53,7 @@ export const Galeria = () => {
     }
 
     function editarCard(id, nomeAntigo) {
-        try {
+       
             const novoNome = prompt("Digite o novo nome da imagem:", nomeAntigo);
 
             const inputArquivo = document.createElement("input");
@@ -59,7 +62,7 @@ export const Galeria = () => {
             //<input>= "file" accepet="image/*"</input>
 
             //Define o que acontece quando o usuario selecionar um arquivo
-            inputArquivo.onchange = async (evento) => {
+            inputArquivo.onchange = async (e) => {
                 const novoArquivo = e.target.files[0];
 
                 const formData = new FormData();
@@ -72,23 +75,21 @@ export const Galeria = () => {
                         await api.put(`Imagem/${id}`, formData, {
                             headers: {
                                 "Content-Type": "multipart/form-data"
-
                             }
                         })
+                        
                         alert("ebaa deu certo!")
                         listarCards();
                     } catch (error) {
                         alert("Não foi possivel alterar o card !")
                         console.error(error);
                     }
+                    
                 }
             };
+            inputArquivo.click();
 
-        } catch (error) {
-            alert("Não foi possivel editar o alert.")
-            console.error(error);
-
-        }
+       
     }
 
     async function excluirCard(id) {
